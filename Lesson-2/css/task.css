@@ -1,0 +1,54 @@
+.main {
+  font-size: 18px;
+  padding: 0 15px;
+  font-weight: 600;
+}
+
+.main__title {
+  font-size: 34px;
+  padding: 0 50px;
+  margin: 100px 0 50px 0;
+}
+
+.table {
+  width: 50vw;
+  border-collapse: collapse;
+  margin: 0 auto;
+}
+
+th,
+td {
+  border: 1px solid rgba(63, 61, 61, 0.936);
+  padding: 12px;
+  text-align: left;
+}
+
+th {
+  background-color: #f2f2f2;
+  font-size: 20px;
+}
+
+.total {
+  background-color: #e2e2e2;
+}
+
+.link {
+  max-width: 200px;
+  font-size: 24px;
+  padding: 20px;
+  position: fixed;
+  top: 20px;
+  left: 100px;
+  border-radius: 8px;
+  overflow: hidden;
+  border: 1px solid #000;
+  transition: all 0.4s;
+
+  text-decoration: none;
+  color: inherit;
+  display: inline-block;
+}
+
+.link:hover {
+  color: #007bff;
+}

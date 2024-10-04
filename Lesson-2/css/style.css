@@ -1,0 +1,42 @@
+a {
+  text-decoration: none;
+  color: inherit;
+  display: inline-block;
+}
+
+.wrraper {
+  min-height: 100%;
+  overflow: clip;
+}
+
+.header {
+  min-height: 150px;
+  text-align: center;
+  font-size: 32px;
+}
+
+.main__items {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 0 15px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px 20px;
+}
+
+.items__item:not(:last-child) {
+  margin-right: 20px;
+}
+
+.items__item {
+  font-size: 40px;
+  margin: 0 auto;
+}
+
+.item__link {
+  transition: all 0.4s;
+}
+
+.item__link:hover {
+  color: #007bff;
+}
