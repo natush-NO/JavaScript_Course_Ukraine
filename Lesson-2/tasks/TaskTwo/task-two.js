@@ -32,7 +32,7 @@ if (isNaN(birthYear)) {
         <td>${year}</td>
     </tr>
      <tr class="total">
-        <td>Рік народження:</td>
+        <td>Повних років:</td>
         <td>${age}</td>
     </tr>
   `;
