@@ -20,7 +20,7 @@ const quantity3 = parseInt(prompt("Введіть кількість товар�
 const total3 = price3 * quantity3;
 
 const totalPrice = total1 + total2 + total3;
-const tax = (totalPrice / 100) * 5;
+const tax = totalPrice / 100 * 5;
 
 const table = document.createElement("table");
 table.classList.add("table");
