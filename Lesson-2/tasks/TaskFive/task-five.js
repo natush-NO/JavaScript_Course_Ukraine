@@ -12,7 +12,7 @@ const userSeconds = parseInt(
 );
 
 const hours = Math.floor(userSeconds / 3600);
-const minutes = Math.floor((userSeconds % 3600) / 60);
+const minutes = Math.floor(userSeconds % 3600 / 60);
 
 const table = document.createElement("table");
 table.classList.add("table");
